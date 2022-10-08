@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emma | Tea Store</title>
+  <link rel="stylesheet" href="/css/ecommerce.css">
+  <link rel="stylesheet" href="/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <img src="/photos/Aesthetic_Elegant_Boutique_Clothes_Trends_Logo-removebg-preview.png" alt="logo">
+        </div>
+        <div class="ul-nav">
+          <ul>
+            <li><a href="/html/ecommerce.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="/html/contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="ul-shop">
+      <ul>
+        <li><a href="#" id="myBtn"><i class="fa-regular fa-user"></i></a></li>
+        <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+      </ul>
+
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+          </div>
+          <div class="container">
+              <div class="modal-body">
+            <div class="log-in">
+              <h2>log in</h2>
+                <form method="POST" class="login-form">
+                    <label for="email">Enter Your Email: </label>
+                    <input type="email" class="email" name="email" required placeholder="Email Address *">
+                    <label for="email">Enter Your Password: </label>
+                    <input type="password" class="password" name="password" required placeholder="Password *">
+                    <button type="submit" value="log-in">Log In</button>
+                </form>
+              </div>
+            </div>
+              <div class="modal-body">
+                <div class="sign-in">
+                    <h2>Registration</h2>
+                <form method="POST" class="signin-form">
+                    <label for="email">Full Name: </label>
+                    <input type="text" class="name" name="name" required placeholder="Your Name *">
+                    <label for="email">Email Address: </label>
+                    <input type="email" class="email" name="email" required placeholder="Email Address *">
+                    <label for="email">Password: </label>
+                    <input type="password" class="password" name="password" required placeholder="Password *">
+                    <button type="submit" value="Submit">Sign In</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="quote" id="home">
+    <div class="bcg">
+      <img src="/photos/Slice_1_1920x1060_crop_center.png" alt="background">
+      <div class="goal">
+        <h1 class="cup">A cup of Tea</h1>
+        <h2 class="better">makes everything better</h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about_emma">
+        <h3>Would you like a cup of tea?</h3>
+        <p>We have a wide range of fresh teas and the products to serve them! Our gourmet tea assortments will suit any occasion and any taste.</p>
+      </div>
+      <div class="advShop">
+        <div class="adv">
+        <div class="free">
+          <i class="fa-solid fa-truck-fast"></i>
+          <h5>Free Shipping</h5>
+          <p>All orders of $49 or more of eligible items across any product category qualify.</p>
+        </div>
+        <div class="payment">
+          <i class="fa-solid fa-comments-dollar"></i>
+          <h5>Payment Methods</h5>
+          <p>Credit Card: Visa, MasterCard, Maestro, American Express.</p>
+        </div>
+        <div class="deals">
+          <i class="fa-regular fa-handshake"></i>
+          <h5>Deals You Love</h5>
+          <p>Never miss a deal. We bring you the best prices for your favorites tea.</p>
+        </div>
+        <div class="new">
+          <i class="fa-solid fa-mug-hot"></i>
+          <h5>Buy the best tea</h5>
+          <p>we are relentless in our pursuit of the best tea.</p>
+        </div>          
+        </div>
+    <div class="shop">
+        <button id="shopnow">Shop Tea Now</button>
+    </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="collections">
+    <div class="container">
+      <div class="head">
+        <h3 class="title">New tea collection</h3>
+        <a href="#" class="seeAll">SEE ALL</a>
+      </div>
+      <div class="slider">
+          <div class="slide-content">
+            <div class="one" id="one">
+              <div class="image">
+                <img src="/photos/pemberley-lavender-and-lemongrass-green-tea-premium-tea-sachets-jane-austen-inspired-tea-collection-gourmet-leaf-tea-blend_02_410x410_crop_center.png" alt="Black Tea">
+              </div>
+              <div class="desc">
+                <h5>Black Tea</h5>
+                <p>11 Products</p>
+              </div>
+              <div class="choose">
+                <button>SHOW PRODUCTS</button>
+              </div>
+            </div>
+            <div class="two" id="two">
+              <div class="image">
+                <img src="/photos/harney-and-sons-earl-grey-tea-4-ounce-tin_04_410x410_crop_center.png" alt="Green Tea">
+              </div>
+              <div class="desc">
+                <h5>Green Tea</h5>
+                <p>10 products</p>
+              </div>
+              <div class="choose">
+                <button>SHOW PRODUCTS</button>
+              </div>
+            </div>
+            
+            <div class="three" id="three">
+              <div class="image">
+                <img src="/photos/black-tea-samples-chinese-breakfast_01_410x410_crop_center.png" alt="Herbal Tea">
+              </div>
+              <div class="desc">
+                <h5>Herbal Tea</h5>
+                <p>10 products</p>
+              </div>
+              <div class="choose">
+                <button>SHOW PRODUCTS</button>
+              </div>
+            </div>
+
+            <div class="four" id="four">
+              <div class="image">
+                <img src="/photos/black-tea-samples-chinese-breakfast_05_410x410_crop_center.png" alt="Herbal Tea">
+              </div>
+              <div class="desc">
+                <h5>Herbal Tea</h5>
+                <p>10 products</p>
+              </div>
+              <div class="choose">
+                <button>SHOW PRODUCTS</button>
+              </div>
+            </div>
+
+            <div class="five" id="five">
+              <div class="image">
+                <img src="/photos/pemberley-lavender-and-lemongrass-green-tea-premium-tea-sachets-jane-austen-inspired-tea-collection-gourmet-leaf-tea-blend_03_410x410_crop_center.png" alt="Herbal Tea">
+              </div>
+              <div class="desc">
+                <h5>Herbal Tea</h5>
+                <p>10 products</p>
+              </div>
+              <div class="choose">
+                <button>SHOW PRODUCTS</button>
+              </div>
+            </div>
+
+            <div class="six" id="six">
+              <div class="image">
+                <img src="/photos/black-tea-samples-chinese-breakfast_05_410x410_crop_center.png" alt="Herbal Tea">
+              </div>
+              <div class="desc">
+                <h5>Herbal Tea</h5>
+                <p>10 products</p>
+              </div>
+              <div class="choose">
+                <button>SHOW PRODUCTS</button>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="dots">
+            <span class="dot" id="prev"></span> 
+            <span class="dot" id="next"></span> 
+          </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="GetNews">
+    <div class="container">
+      <div class="image">
+        <div class="text">
+          <h4>Get our latest News and Special sales!</h4>
+          <p>Join us for the latest Roxxe news, including special offers, events, collaborations and new arrivals.</p>
+          <input type="email" placeholder="Email address" id="email" name="email">
+          <button>Submit</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="main">
+      <div class="logofooter">
+        <img src="/photos/Aesthetic_Elegant_Boutique_Clothes_Trends_Logo-removebg-preview.png" alt="logo">
+      </div>
+      <div class="linksfooter">
+        <div class="links1">
+        <a href="/html/ecommerce.html">Home</a>
+        <a href="#about">About</a>
+        <a href="/html/contact.html">Contact Us</a>
+        </div>
+        <div class="links2">
+        <a href="#Card">Card</a>
+        <a href="#Loved">Loved</a>
+        <a href="accounts">Account</a>               
+        </div>
+      </div>
+      <div class="bref">
+        <p>We have a wide range of fresh teas and the products to serve them! Our gourmet tea assortments will suit any occasion and any taste.</p>
+      </div>
+      </div>
+      <div class="social">
+        <a href="https://www.facebook.com/profile.php?id=100048944991759" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/EmanKha70502351?t=ExvIVUTN1qi87p9681ntyQ&s=09" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com/emankalil2?utm_medium=copy_link" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/eman-khalil-alban-81770b1b7/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+  <button id="up"><i class="fa-solid fa-angles-up"></i></button>
+  <script src="/js/ecommerce.js"></script>
+</body>
+
+</html>
